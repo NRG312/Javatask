@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Javatask.iml" filepath="$PROJECT_DIR$/Javatask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A1/A1.iml" filepath="$PROJECT_DIR$/A1/A1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A3/A3.iml" filepath="$PROJECT_DIR$/A3/A3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A4/A4.iml" filepath="$PROJECT_DIR$/A4/A4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/B2/B2.iml" filepath="$PROJECT_DIR$/B2/B2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/B3/B3.iml" filepath="$PROJECT_DIR$/B3/B3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProjectyJavaDoszkoly.iml" filepath="$PROJECT_DIR$/ProjectyJavaDoszkoly.iml" />
     </modules>
   </component>
 </project>
