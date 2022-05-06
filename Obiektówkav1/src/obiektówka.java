@@ -1,5 +1,8 @@
 
+import lombok.*;
 
+@Getter
+@Setter
 public class obiektówka {
     String imie;
     String nazwisko;
@@ -8,8 +11,9 @@ public class obiektówka {
     int liczby;
     float pojemnosc;
 
-    obiektówka(String noweimie,String nowamiejscowosc){
-
+    obiektówka(String imie,String Miejscowosc){
+        this.imie = imie;
+        this.Miejscowosc = Miejscowosc;
     }
 
 
@@ -17,19 +21,23 @@ public class obiektówka {
 
 
     public void Setnazwisko(String nazwisko){
+
         this.nazwisko = nazwisko;
     }
 
     public String Getnazwisko(){
+
         return nazwisko;
     }
 
     public static void main(String []args){
+
         System.out.println("s");
     }
 }
-
 class obiektówka2 {
+    @Getter
+    @Setter
 
     String wiek;
     String nazwa;
@@ -41,6 +49,9 @@ class obiektówka2 {
 }
 
 class obiektowka3{
+    @Getter
+    @Setter
+
     obiektówka2 nowywiek = new obiektówka2();
     obiektówka2 nowanazwa = new obiektówka2();
 }
