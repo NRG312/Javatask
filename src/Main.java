@@ -62,7 +62,6 @@ public class Main {
             if (currentline.contains("@")){
                 isfoundword = true;
                 System.out.println(currentline);
-                break;
             }
         }
         if (!isfoundword){
