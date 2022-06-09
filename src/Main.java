@@ -1,4 +1,6 @@
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.nio.file.Paths;
 import java.io.*;
 import java.nio.charset.StandardCharsets;
@@ -44,12 +46,28 @@ public class Main {
 //        System.out.println(text2);
 //    }
 
-    public static void main(String[] args) throws IOException {
-        File text = new File("napis.txt");
 
-        BufferedReader reader = new BufferedReader(new FileReader(text));
-//        reader.skip(1);
-        reader.readLine();
 
-    }
+    //Zad 1 Strony
+
+    /*public static void main(String[] args) throws IOException {
+        URL url = new URL("https://www.youtube.com/");
+        BufferedReader br = new BufferedReader(new InputStreamReader(url.openStream()));
+
+        String currentline;
+        boolean isfoundword = false;
+
+        while((currentline = br.readLine()) != null){
+
+            if (currentline.contains("@")){
+                isfoundword = true;
+                System.out.println(currentline);
+                break;
+            }
+        }
+        if (!isfoundword){
+            System.out.println("Nie znaleziono danego slowa");
+        }
+    }*/
+
 }
